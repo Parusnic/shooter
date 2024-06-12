@@ -4,7 +4,7 @@ from random import randint
 from pygame import *
 
 font.init()
-
+# Переменные определяющие размеры игровой сцены и спрайтов
 SCREEN_SIZE = (1920, 1080)
 SPRITE_SIZE = 60
 
@@ -75,7 +75,6 @@ mixer.init()
 mixer.music.load('space.ogg')
 mixer.music.set_volume(0.05)
 mixer.music.play()
-
 
 game = True
 clock = time.Clock()
